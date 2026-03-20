@@ -78,6 +78,8 @@ public class Torredehanoi {
         contadorMovimentos++;
     }
 
+
+
     public static void HanoiPilhas(int n, Torredehanoi torreOrigem, Torredehanoi torreDestino, Torredehanoi torreSuporte) {
 
         // Se houver apenas 1 disco, basta movê-lo direto para o destino
@@ -104,7 +106,7 @@ public class Torredehanoi {
 
     public static void main(String[] args) {
         // Definindo o número de discos
-        int numeroDiscos = 3;
+        int numeroDiscos = 5;
         Torredehanoi torre1 = new Torredehanoi(numeroDiscos, "A");
         Torredehanoi torre2 = new Torredehanoi(numeroDiscos, "B");
         Torredehanoi torre3 = new Torredehanoi(numeroDiscos, "C");
